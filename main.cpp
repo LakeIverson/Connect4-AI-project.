@@ -113,8 +113,8 @@ int main() {
     Agent agent_1(1, 10, 2000, 2, 20, 100, true);
     Agent agent_2(2, 20, 2000, 2, 20, 100, true);
 
-    playGame(env, agent_1, agent_2, true); 
-    //performanceMeasure(env, agent_1, agent_2, 1000);
+    //playGame(env, agent_1, agent_2, true); 
+    performanceMeasure(env, agent_1, agent_2, 1000);
 
     return 0;
 }

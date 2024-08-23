@@ -29,3 +29,5 @@ oox. ~ -20
 ooox ~ -100
 ```
 By doing this the agent will be rewarded more for stopping a potential win rather than going for it's own goals. The absurdly high points for winning also makes sure the agent takes this path no matter what. Likewise the extremely large penalty for losing, as well as some bonus points for stopping the adversary from winning will also make sure the agent doesn't allow the adversary any ground to win.
+
+In main.cpp there is a commented out line at the bottom. Commenting it in will play just 1 game printing the game board each time, where as the one below does the evaluation for 1000 games.
